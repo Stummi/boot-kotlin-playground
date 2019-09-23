@@ -7,6 +7,6 @@ addons:
     organization: "stummi"
 
 script:
-  - ./gradlew bootJar
+  - ./gradlew test bootJar
   - sonar-scanner
 
